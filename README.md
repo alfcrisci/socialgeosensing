@@ -5,7 +5,7 @@ R Public Code for Disaster 2.0 MasterClasses Bruxelles 17/01/2013 D in collabor
 with Dott. Valentina Grasso mail:v.grasso@ibimet.cnr.it LaMMA CNR Consorzio - IBIMET CNR 
 
 
-# Social Media and severe weather events: a case of Twitter sensing
+# Social media and severe weather events: an heatwave footprint on Twitter
 
 This code is the R code for reproducible examples presented in Class Room.
 The methodology is useful to carry out geographical sensing of social content during severe weather event. 
