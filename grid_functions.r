@@ -30,7 +30,6 @@ sign_cortimevec <- function(x, vectime, method='spearman') {
         calc(x, fun=myscor)
 }
 
-cor_map=sign_regresvec(rea_aprile_day,n_tweet_day)
 
 
 
