@@ -1,4 +1,4 @@
-Socialgeosensing
+SOCIALGEOSENSING
 ================
 
 R Public Code for Disaster 2.0 MasterClasses Bruxelles 17/01/2013 D in collaboration 
