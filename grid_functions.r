@@ -1,3 +1,14 @@
+##################################################################################
+#
+# Authors : Alfonso Crisci & Valentina Grasso
+# IBIMET CNR Institute of Biometeorology Firenze via caproni 8, 50145, Italia
+# mail:a.crisci@ibimet.cnr.it
+# github: https://github.com/alfcrisci/socialgeosensing
+
+# R Functions for weather grids elaboration
+##################################################################################
+
+
 require(raster)
 require(rgdal)
 
