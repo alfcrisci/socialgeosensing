@@ -57,7 +57,7 @@ legend("bottomleft", inset=.05, title="Social network Association",c("No","Weak"
 dev.off()
 
 # Non parametric  association by spearman rank correlation function 
-# not perform because not respect linear hypothesis of association between weather and time-aggregated and keytagged social streams
+# not perform because not respect linear hypothesis of association between weather and time-aggregated/keytagged social streams metric.
 
 cor_map=stackcortimevec(rea_aprile_day,DKTN_total,method="spearman")
 
