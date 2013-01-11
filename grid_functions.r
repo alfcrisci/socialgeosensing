@@ -1,4 +1,5 @@
 ##################################################################################
+<<<<<<< HEAD
 #  
 # Authors : Alfonso Crisci & Valentina Grasso
 # IBIMET CNR Institute of Biometeorology Firenze via caproni 8,50145,Italia                              
@@ -8,6 +9,18 @@
 # Geosensing functions
 ##################################################################################
 
+=======
+#
+# Authors : Alfonso Crisci & Valentina Grasso
+# IBIMET CNR Institute of Biometeorology Firenze via caproni 8, 50145, Italia
+# mail:a.crisci@ibimet.cnr.it
+# github: https://github.com/alfcrisci/socialgeosensing
+
+# R Functions for weather grids elaboration
+##################################################################################
+
+
+>>>>>>> 6474d0cf4a7e0d821823b1915cd20dba6014fdef
 require(raster)
 require(rgdal)
 
@@ -40,7 +53,6 @@ sign_cortimevec <- function(x, vectime, method='spearman') {
         calc(x, fun=myscor)
 }
 
-cor_map=sign_regresvec(rea_aprile_day,n_tweet_day)
 
 
 
