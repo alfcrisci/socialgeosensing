@@ -42,30 +42,20 @@ rea_aprile_day=brick("data_weather/rea_aprile_day.nc")
 # WRF-ARW 9km analisys tmax surface   tempreature (*C)
 # Source: LaMMA-IBIMET CNR 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 wrf_tmax_day=brick("data_weather/wrf.tmax.heatwave.nc")
-=======
 wrf_tmax_day=brick("wrf.tmax.heatwave.nc")
->>>>>>> 6474d0cf4a7e0d821823b1915cd20dba6014fdef
-=======
 wrf_tmax_day=brick("data_weather/wrf.tmax.heatwave.nc")
->>>>>>> parent of 0d3c880... erase
 
 ##################################################################################
 
 ##################################################################################
 # Calculation and mapping  
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Linear association by R lm function REANALISYS (http://reanalysis.org/)large scale grid 
 =======
 # Tree levels of significance in pixelwise linear association between DTKN and weather done by R lm function data : REANALISYS NCEP NOAA (large scale grid) 
->>>>>>> 6474d0cf4a7e0d821823b1915cd20dba6014fdef
 =======
 # Linear association by R lm function REANALISYS (http://reanalysis.org/)large scale grid 
->>>>>>> parent of 0d3c880... erase
 
 cor_map_s=class_sign_regresvec(rea_aprile_day,DKTN_total)
  
@@ -77,11 +67,9 @@ legend("bottomleft", inset=.05, title="Social network Association",c("No","Weak"
 dev.off()
 
 # Non parametric  association by spearman rank correlation function 
-<<<<<<< HEAD
 # not perform because not respect linear hypothesis of association between weather and time-aggregated/keytagged social streams metric.
 =======
 
->>>>>>> parent of 0d3c880... erase
 
 cor_map=stackcortimevec(rea_aprile_day,DKTN_total,method="spearman")
 
@@ -95,12 +83,8 @@ dev.off()
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Linear association by R lm function WRF-ARW (http://wrf-model.org) finer scale grid 
-=======
+
 # Tree levels of significance in pixelwise linear association between DTKN and weather done by R lm function Data WRF ARW 9km daily forecasts (finer scale grid) 
->>>>>>> 6474d0cf4a7e0d821823b1915cd20dba6014fdef
-=======
-# Linear association by R lm function WRF-ARW (http://wrf-model.org) finer scale grid 
->>>>>>> parent of 0d3c880... erase
 
 
 cor_map_w=class_sign_regresvec(wrf_tmax_day,DKTN_total) 
